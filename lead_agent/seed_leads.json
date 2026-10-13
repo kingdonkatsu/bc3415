@@ -1,0 +1,346 @@
+{
+ "_note": "Demo leads for the prototype. 'h' values are hours relative to the moment the database is seeded, so the board always has due, overdue and stale items. Leads with source 'LCAR import' copy the vague style of today's LCAR records and have no Next Best Action yet.",
+ "leads": [
+  {
+   "lead_id": "L001",
+   "parent_name": "Mrs Tan",
+   "phone": "9111 2222",
+   "child_name": "Ethan",
+   "level": "P4",
+   "subjects": "English",
+   "learning_needs": "Composition",
+   "owner": "Aisyah",
+   "source": "WhatsApp",
+   "created_h": -2,
+   "history": [
+    {
+     "h": -2,
+     "event": "new_enquiry",
+     "parent_responded": true,
+     "note": "WhatsApp enquiry: what do you have for my P4 boy? He is weak in English composition."
+    }
+   ]
+  },
+  {
+   "lead_id": "L002",
+   "parent_name": "Mr Lee",
+   "phone": "9222 3333",
+   "child_name": "Jayden",
+   "level": "Sec 3",
+   "subjects": "A Maths",
+   "learning_needs": "Algebraic manipulation",
+   "parent_goals_concerns": "Wants a B3 or better by end of year",
+   "preferred_timing": "Weekday evenings",
+   "owner": "Ben",
+   "source": "Walk-in",
+   "created_h": -120,
+   "assessment_at_h": -27,
+   "history": [
+    {
+     "h": -120,
+     "event": "assessment_interest",
+     "parent_responded": true,
+     "note": "Walk-in. Dad says Jayden failed A Maths mid-year. Wants assessment. Weekday evenings."
+    },
+    {
+     "h": -118,
+     "event": "assessment_booked",
+     "parent_responded": true,
+     "note": "Booked assessment for Jayden."
+    },
+    {
+     "h": -26,
+     "event": "assessment_completed",
+     "parent_responded": true,
+     "note": "Assessment done. Weak in algebraic manipulation and indices, trig basics OK. Dad waiting for our recommendation."
+    }
+   ]
+  },
+  {
+   "lead_id": "L003",
+   "parent_name": "Mdm Wong",
+   "phone": "9333 4444",
+   "child_name": "Chloe",
+   "level": "P5",
+   "subjects": "Science",
+   "learning_needs": "Open-ended answers",
+   "preferred_timing": "Tuesday after school",
+   "owner": "Clara",
+   "source": "Website form",
+   "created_h": -30,
+   "assessment_at_h": 75,
+   "history": [
+    {
+     "h": -20,
+     "event": "assessment_booked",
+     "parent_responded": true,
+     "note": "Mum booked assessment for Chloe. Loses marks on open-ended Science questions."
+    }
+   ]
+  },
+  {
+   "lead_id": "L004",
+   "parent_name": "Mrs Kumar",
+   "phone": "9444 5555",
+   "child_name": "Arjun",
+   "level": "P6",
+   "subjects": "Maths",
+   "learning_needs": "Word problems",
+   "parent_goals_concerns": "PSLE next year",
+   "owner": "Aisyah",
+   "source": "Referral",
+   "created_h": -150,
+   "assessment_at_h": -26,
+   "history": [
+    {
+     "h": -120,
+     "event": "assessment_booked",
+     "parent_responded": true,
+     "note": "Referral from existing parent. Booked P6 Maths assessment. Struggles with word problems."
+    }
+   ]
+  },
+  {
+   "lead_id": "L005",
+   "parent_name": "Ms Ong",
+   "phone": "9555 6666",
+   "child_name": "Sophie",
+   "level": "P3",
+   "subjects": "English",
+   "learning_needs": "Reading comprehension",
+   "preferred_timing": "Sunday morning",
+   "owner": "Clara",
+   "source": "Facebook ad",
+   "created_h": -200,
+   "trial_at_h": -1,
+   "history": [
+    {
+     "h": -60,
+     "event": "trial_booked",
+     "parent_responded": true,
+     "note": "Trial booked for Sunday P3 English class."
+    },
+    {
+     "h": -1,
+     "event": "trial_completed",
+     "parent_responded": true,
+     "note": "Sophie finished trial. Tutor says she enjoyed it, needs help with inference questions."
+    }
+   ]
+  },
+  {
+   "lead_id": "L006",
+   "parent_name": "Mr Rahman",
+   "phone": "9666 7777",
+   "child_name": "Iman",
+   "level": "Sec 1",
+   "subjects": "Maths",
+   "owner": "Ben",
+   "source": "WhatsApp",
+   "created_h": -170,
+   "trial_at_h": -28,
+   "history": [
+    {
+     "h": -96,
+     "event": "trial_booked",
+     "parent_responded": true,
+     "note": "Booked Sec 1 Maths trial for Iman, Tuesday evening class."
+    }
+   ]
+  },
+  {
+   "lead_id": "L007",
+   "parent_name": "Mrs Chua",
+   "phone": "9777 8888",
+   "child_name": "Ryan",
+   "level": "P4",
+   "subjects": "Maths",
+   "learning_needs": "Fractions",
+   "budget_concern": "Finds $220/month a stretch",
+   "decision_makers": "Husband",
+   "preferred_timing": "Saturday morning",
+   "owner": "Aisyah",
+   "source": "Walk-in",
+   "created_h": -100,
+   "history": [
+    {
+     "h": -40,
+     "event": "considering",
+     "parent_responded": true,
+     "note": "Mum liked the trial but needs to discuss with husband, worried about cost."
+    }
+   ]
+  },
+  {
+   "lead_id": "L008",
+   "parent_name": "Mrs Lim",
+   "phone": "9888 9999",
+   "child_name": "Hannah",
+   "level": "P5",
+   "subjects": "English",
+   "learning_needs": "Composition; comprehension",
+   "preferred_timing": "Saturday afternoon",
+   "constraints": "Travelling",
+   "preferred_next_step": "Assessment",
+   "owner": "Clara",
+   "source": "Phone",
+   "created_h": -24,
+   "contact_after_h": 120,
+   "history": [
+    {
+     "h": -24,
+     "event": "assessment_interest",
+     "parent_responded": true,
+     "note": "Mum interested in P5. Child weak in composition and comprehension. Looking for Saturday afternoon. Wants an assessment but travelling. Asked us to WhatsApp after she returns."
+    }
+   ]
+  },
+  {
+   "lead_id": "L009",
+   "parent_name": "Mr Goh",
+   "phone": "9000 1111",
+   "child_name": "Daniel",
+   "level": "Sec 4",
+   "subjects": "Chemistry",
+   "learning_needs": "Mole concept",
+   "owner": "Ben",
+   "source": "Website form",
+   "created_h": -500,
+   "nr_attempts": 3,
+   "last_parent_response_h": -432,
+   "history": [
+    {
+     "h": -432,
+     "event": "info_exchanged",
+     "parent_responded": true,
+     "note": "Sent Sec 4 Chemistry class info. Dad said he will look at it."
+    }
+   ],
+   "seed_event": {
+    "h": -150,
+    "event": "followup_sent",
+    "prev_action": "followup_final"
+   }
+  },
+  {
+   "lead_id": "L010",
+   "parent_name": "Mrs Teo",
+   "phone": "9000 2222",
+   "child_name": "Mei",
+   "level": "P6",
+   "subjects": "Science",
+   "owner": "Aisyah",
+   "source": "WhatsApp",
+   "created_h": -120,
+   "nr_attempts": 1,
+   "last_parent_response_h": -96,
+   "history": [
+    {
+     "h": -96,
+     "event": "info_exchanged",
+     "parent_responded": true,
+     "note": "Sent P6 Science class timings. Mum said ok will check."
+    }
+   ],
+   "seed_event": {
+    "h": -48,
+    "event": "followup_sent",
+    "prev_action": "followup_1"
+   }
+  },
+  {
+   "lead_id": "L011",
+   "parent_name": "Mrs Ng",
+   "phone": "9000 3333",
+   "child_name": "Kai",
+   "level": "P5",
+   "subjects": "Maths",
+   "owner": "Clara",
+   "source": "Referral",
+   "created_h": -300,
+   "stage": "Enrolled",
+   "history": [
+    {
+     "h": -100,
+     "event": "enrolled",
+     "parent_responded": true,
+     "note": "Enrolled Kai into Saturday P5 Maths."
+    }
+   ]
+  },
+  {
+   "lead_id": "L012",
+   "parent_name": "Mr Tay",
+   "phone": "9000 4444",
+   "child_name": "Zoe",
+   "level": "Sec 2",
+   "subjects": "English",
+   "owner": "Ben",
+   "source": "Walk-in",
+   "created_h": -400,
+   "stage": "Closed - declined",
+   "closed_reason": "Chose a centre nearer home",
+   "history": [
+    {
+     "h": -200,
+     "event": "declined",
+     "parent_responded": true,
+     "note": "Dad decided on a centre nearer home."
+    }
+   ]
+  },
+  {
+   "lead_id": "L013",
+   "parent_name": "Mrs Yeo",
+   "phone": "9000 5555",
+   "owner": "Ben",
+   "source": "LCAR import",
+   "created_h": -72,
+   "stage": "Unclear (LCAR import)",
+   "history": [
+    {
+     "h": -72,
+     "event": "unclear",
+     "parent_responded": true,
+     "note": "Interested. Follow up."
+    }
+   ]
+  },
+  {
+   "lead_id": "L014",
+   "parent_name": "Mr Koh",
+   "phone": "9000 6666",
+   "owner": "Clara",
+   "source": "LCAR import",
+   "created_h": -90,
+   "stage": "Unclear (LCAR import)",
+   "history": [
+    {
+     "h": -90,
+     "event": "unclear",
+     "parent_responded": false,
+     "note": "Called. No answer."
+    }
+   ]
+  },
+  {
+   "lead_id": "L015",
+   "parent_name": "Ms Lau",
+   "phone": "9000 7777",
+   "level": "P5",
+   "subjects": "Maths",
+   "owner": "Aisyah",
+   "source": "LCAR import",
+   "created_h": -50,
+   "stage": "Unclear (LCAR import)",
+   "history": [
+    {
+     "h": -50,
+     "event": "unclear",
+     "parent_responded": true,
+     "note": "P5 maths? wants info."
+    }
+   ]
+  }
+ ]
+}
